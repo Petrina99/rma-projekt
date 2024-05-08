@@ -1,35 +1,27 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["./app/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
-    theme: {
-      extend: {
-        colors: {
-          primary: "#161622",
-          secondary: {
-            DEFAULT: "#FF9C01",
-            100: "#FF9001",
-            200: "#FF8E01",
-          },
-          black: {
-            DEFAULT: "#000",
-            100: "#1E1E2D",
-            200: "#232533",
-          },
-          gray: {
-            100: "#CDCDE0",
-          },
-        },
-        fontFamily: {
-          pthin: ["Poppins-Thin", "sans-serif"],
-          pextralight: ["Poppins-ExtraLight", "sans-serif"],
-          plight: ["Poppins-Light", "sans-serif"],
-          pregular: ["Poppins-Regular", "sans-serif"],
-          pmedium: ["Poppins-Medium", "sans-serif"],
-          psemibold: ["Poppins-SemiBold", "sans-serif"],
-          pbold: ["Poppins-Bold", "sans-serif"],
-          pextrabold: ["Poppins-ExtraBold", "sans-serif"],
-          pblack: ["Poppins-Black", "sans-serif"],
-        },
+  content: ["./app/**/*.{js,jsx,ts,tsx}", "./components/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        primary: "#EC4E20",
+        background: "#1A1A1A",
+        gray: "#A0A0A0",
+        bgcard: "#222222"
       },
+      fontFamily: {
+        mthin: ["Montserrat-Thin", "sans-serif"],
+        mxlight: ["Montserrat-ExtraLight", "sans-serif"],
+        mlight: ["Montserrat-Light", "sans-serif"],
+        mregular: ["Montserrat-Regular", "sans-serif"],
+        mmedium: ["Montserrat-Medium", "sans-serif"],
+        msemibold: ["Montserrat-SemiBold", "sans-serif"],
+        mbold: ["Montserrat-Bold", "sans-serif"],
+        mxbold: ["Montserrat-ExtraBold", "sans-serif"],
+        mblack: ["Montserrat-Black", "sans-serif"],
+      }
     },
-    plugins: [],
-  };
+  },
+  plugins: [],
+}
+
